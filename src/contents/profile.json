@@ -1,0 +1,19 @@
+{
+  "name": "Rendi Wijiatmoko",
+  "title": "Full-Stack Developer",
+  "summary": "I'm a Junior Fullstack Developer with a strong passion to learn new things. Conversant with a few JavaScript frameworks or library like React Native and Express Js. Has essential focus in Mobile Development using React Native.",
+  "throwlink" : [
+    {
+      "title" : "Linkedin",
+      "url" : "https://id.linkedin.com/in/rendiwijiatmoko"
+    },
+    {
+      "title" : "Github",
+      "url" : "https://www.github.com/rendiwijiatmoko"
+    },
+    {
+      "title" : "freeCodeCamp",
+      "url" : "https://www.freecodecamp.org/rendiwijiatmoko"
+    }
+  ]
+}

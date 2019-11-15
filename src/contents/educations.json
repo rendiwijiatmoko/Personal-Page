@@ -1,0 +1,47 @@
+{
+    "studies": [
+        {
+          "institute": "Sampoerna Academy",
+          "logo": "https://media.licdn.com/dms/image/C4E0BAQGIsuWXdeDlRA/company-logo_400_400/0?e=1582156800&v=beta&t=dML8wZpdKVCCdv3i7t71WaOnGIp84xFT5i13QD_h2EE",
+          "url": "https://www.sampoernaacademy.sch.id/",
+          "durationInYears": "3",
+          "graduationYear": 2017
+        }
+      ],
+      "certifications": [
+        {
+          "logo": "https://www.dicoding.com/images/original/event/diskusi_online_kelas_academy_menjadi_android_developer_expert_logo_140318105211.png",
+          "url": "https://dicoding.com",
+          "title": "Sertifikat Kelulusan Pemrogramman Dengan Kotlin",
+          "issuer": "Mobile App",
+          "issueDate": "2019-08",
+         "expiryDate": "2022-08",
+          "verificationLink": "https://www.dicoding.com/users/442671/academies"
+        },
+        {
+          "logo": "https://www.dicoding.com/images/original/event/diskusi_online_kelas_academy_menjadi_android_developer_expert_logo_140318105211.png",
+          "url": "https://dicoding.com",
+          "title": "Sertifikat Kelulusan Belajar Dasar Pemrogramman Web",
+          "issuer": "Web",
+          "issueDate": "2019-08",
+          "expiryDate": "2022-08",
+          "verificationLink": "https://www.dicoding.com/users/442671/academies"
+        },
+        {
+          "logo": "https://i0.wp.com/3minute.club/wp-content/uploads/2019/03/Udemy-logo.png?resize=300%2C300",
+          "url": "https://udemy.com",
+          "title": "Leveling up to ES6",
+          "issuer": "JavaScript",
+          "issueDate": "2018-09-01",
+          "verificationLink": "https://www.udemy.com/certificate/UC-13H52JWZ/"
+        },
+        {
+          "logo": "https://i0.wp.com/3minute.club/wp-content/uploads/2019/03/Udemy-logo.png?resize=300%2C300",
+          "url": "https://www.udemy.com",
+          "title": "The Complete Full-Stack JavaScript Course",
+          "issuer": "JavaScript",
+          "issueDate": "2019-11-01",
+          "verificationLink": "https://www.udemy.com/certificate/UC-13H52JWZ/"
+        }
+      ]
+}

@@ -1,0 +1,18 @@
+{
+    "experiences": [
+        {
+          "companyName": "Dumbways",
+          "logo": "https://cdn.techinasia.com/data/images/LzvV52o01nNnKw9jBzEU9yTsdLLLNINayjwdwxV3.png",
+          "url": "https://dumbways.id/",
+          "roles": [
+            {
+              "title": "Full-Stack Developer",
+              "description": "Talent as full-stack",
+              "startDate": "2019-10-05",
+              "currentJob": true,
+              "location": "South Tangerang, Indonesia"
+            }
+          ]
+        }
+    ]
+}

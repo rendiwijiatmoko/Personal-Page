@@ -1,22 +1,259 @@
-.App {
-  text-align: center;
+body {
+  background-color: #F5F5F5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
+.topnav {
+  font-size: 16px;
+  background: #1c1c1c;
+  border-bottom: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.topnav ul.navbar-nav li a {
+  color: #959595;
 }
 
-.App-link {
-  color: #09d3ac;
+.topnav ul.navbar-nav li a:hover,
+.topnav ul.navbar-nav li a:focus {
+  color: #fff;
+}
+
+.topnav .navbar-brand {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.topnav .navbar-brand:hover,
+.topnav .navbar-brand:focus {
+  color: #fff;
+}
+
+.lead {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.intro-header {
+  text-align: left;
+  color: #fff;
+  background-color: #1c1c1c;
+  background-size: cover;
+  height: 800px;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+  margin: 0;
+  font-size: 5em;
+  font-weight: 700;
+}
+
+.intro-message > h2 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.intro-message > h3 {
+  font-size: 1.5em;
+  color: #999999;
+  line-height: 1.5;
+  padding-top: 0%;
+  padding-bottom: 3%;
+  max-width: 70%;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message > h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons > li {
+    display: block;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+  ul.intro-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+
+/* skil */
+.padding2 {
+  padding-top: 40px;
+}
+.skill-icon-container {
+  max-width: 860px;
+  /*960px*/
+  margin: 0px auto;
+  overflow: hidden;
+  /*=== +clear(fix)*/
+}
+.ico-skill {
+  width:100px;
+  height:100px;
+  margin:20px;
+}
+.icon {
+  display: inline-block;
+}
+
+.skill-i {
+  padding: 0px 10px 0px 15px;
+  font-size: 55px;
+}
+
+
+/* social buttons */
+
+.btn {
+  display: inline-block;
+  color: #959595;
+  background: #1c1c1c;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  border: 0px outset rgba(28, 28, 28, 1);
+}
+
+.btn:hover {
+  color: #fff;
+  border: 0px outset rgba(255, 255, 255, 255.9);
+  background: #1c1c1c;
+  transform: scale(1.1);
+  transition: 0.1s;
+  letter-spacing: 2px;
+}
+
+
+/* portfolio tittle*/
+section {
+  background: #f5f5f5;
+  background-size: cover;
+}
+
+/*#small-text {
+  color: #757575;
+}*/
+
+div.media {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+div.media .media-heading .jobTotalDuration {
+  color: #666;
+  font-size: 14px;
+  display: block;
+}
+
+div.media img {
+  height: 10vmin;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+div.media .jobDuration {
+  color: #444;
+  display: block;
+}
+
+div.media .jobLocation {
+  color: #666;
+}
+
+.formLabel {
+  font-weight: bold;
+}
+
+.certificateLink {
+  color: cornflowerblue;
+}
+.section-title {
+  color: #767676;
+}
+.section-heading {
+  font-size: 4em;
+  font-weight: 700;
+  color: #767676;
+  margin-top: 0%;
+  margin-bottom: 6%;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: #1c1c1c;
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #1c1c1c;
+}
+
+a {
+  color: #757575;
+}
+
+p.copyright {
+  margin: 15px 0 0;
 }

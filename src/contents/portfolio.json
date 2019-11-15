@@ -1,0 +1,16 @@
+{
+    "portfolio": [
+    {
+        "img":"../images/yareerooms.png",
+        "title":"YareeRooms",
+        "text": "A mobile application for admin or receptionist to monitor rooms and customers",
+        "url" : "http://bit.ly/yareerooms"
+    },
+    {
+        "img":"../images/maratoon.png",
+        "title":"MaraToon",
+        "text": "A mobile application to share comic. This app is inspired by Weebtoon.",
+        "url" : "http://bit.ly/maratoon"
+    }
+]
+}
