@@ -6,13 +6,15 @@ import Portofolio from './components/Portofolio';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Footer from './components/Footer';
+import Profile from './components/Profile';
 
 function App() {
   return (
     <div className="App">
       <TopBar />
       <About />
-      <Education />
+      <Profile />
+
       <Skills />
       <Portofolio />
       <Footer />

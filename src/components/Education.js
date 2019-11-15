@@ -7,8 +7,6 @@ const Education = () => {
   return <Container>
     <Row>
       <Col>
-      <br />
-      <h2 className="section-title text-center">EDUCATIONS</h2> <hr />
         {educations.studies.map(function (study, i) {
           return <Media key={i}>
             <Media left top href={study.url}>
